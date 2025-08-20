@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C06E0E2E5580F200F698A2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C06E0D2E5580F200F698A2 /* SnapKit */; };
+		E5C06E112E55811E00F698A2 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E5C06E102E55811E00F698A2 /* RxCocoa */; };
+		E5C06E132E55811E00F698A2 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E5C06E122E55811E00F698A2 /* RxRelay */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5C064BF2E545B7700F698A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C0649D2E545B7600F698A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C064A42E545B7600F698A2;
+			remoteInfo = SimpleAuth;
+		};
+		E5C064C92E545B7700F698A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C0649D2E545B7600F698A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C064A42E545B7600F698A2;
+			remoteInfo = SimpleAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5C064A52E545B7600F698A2 /* SimpleAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C064BE2E545B7700F698A2 /* SimpleAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C064C82E545B7700F698A2 /* SimpleAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E5C064D02E545B7700F698A2 /* Exceptions for "SimpleAuth" folder in "SimpleAuth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Resource/Info.plist,
+			);
+			target = E5C064A42E545B7600F698A2 /* SimpleAuth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E5C064A72E545B7600F698A2 /* SimpleAuth */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E5C064D02E545B7700F698A2 /* Exceptions for "SimpleAuth" folder in "SimpleAuth" target */,
+			);
+			path = SimpleAuth;
+			sourceTree = "<group>";
+		};
+		E5C064C12E545B7700F698A2 /* SimpleAuthTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleAuthTests;
+			sourceTree = "<group>";
+		};
+		E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C064A22E545B7600F698A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C06E132E55811E00F698A2 /* RxRelay in Frameworks */,
+				E5C06E112E55811E00F698A2 /* RxCocoa in Frameworks */,
+				E5C06E0E2E5580F200F698A2 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064BB2E545B7700F698A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064C52E545B7700F698A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C0649C2E545B7600F698A2 = {
+			isa = PBXGroup;
+			children = (
+				E5C064A72E545B7600F698A2 /* SimpleAuth */,
+				E5C064C12E545B7700F698A2 /* SimpleAuthTests */,
+				E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */,
+				E5C064A62E545B7600F698A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C064A62E545B7600F698A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C064A52E545B7600F698A2 /* SimpleAuth.app */,
+				E5C064BE2E545B7700F698A2 /* SimpleAuthTests.xctest */,
+				E5C064C82E545B7700F698A2 /* SimpleAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5C064A42E545B7600F698A2 /* SimpleAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C064D12E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuth" */;
+			buildPhases = (
+				E5C064A12E545B7600F698A2 /* Sources */,
+				E5C064A22E545B7600F698A2 /* Frameworks */,
+				E5C064A32E545B7600F698A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E5C064A72E545B7600F698A2 /* SimpleAuth */,
+			);
+			name = SimpleAuth;
+			packageProductDependencies = (
+				E5C06E0D2E5580F200F698A2 /* SnapKit */,
+				E5C06E102E55811E00F698A2 /* RxCocoa */,
+				E5C06E122E55811E00F698A2 /* RxRelay */,
+			);
+			productName = SimpleAuth;
+			productReference = E5C064A52E545B7600F698A2 /* SimpleAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5C064BD2E545B7700F698A2 /* SimpleAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C064D62E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuthTests" */;
+			buildPhases = (
+				E5C064BA2E545B7700F698A2 /* Sources */,
+				E5C064BB2E545B7700F698A2 /* Frameworks */,
+				E5C064BC2E545B7700F698A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C064C02E545B7700F698A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E5C064C12E545B7700F698A2 /* SimpleAuthTests */,
+			);
+			name = SimpleAuthTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleAuthTests;
+			productReference = E5C064BE2E545B7700F698A2 /* SimpleAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5C064C72E545B7700F698A2 /* SimpleAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C064D92E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuthUITests" */;
+			buildPhases = (
+				E5C064C42E545B7700F698A2 /* Sources */,
+				E5C064C52E545B7700F698A2 /* Frameworks */,
+				E5C064C62E545B7700F698A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C064CA2E545B7700F698A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */,
+			);
+			name = SimpleAuthUITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleAuthUITests;
+			productReference = E5C064C82E545B7700F698A2 /* SimpleAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C0649D2E545B7600F698A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E5C064A42E545B7600F698A2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E5C064BD2E545B7700F698A2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E5C064A42E545B7600F698A2;
+					};
+					E5C064C72E545B7700F698A2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E5C064A42E545B7600F698A2;
+					};
+				};
+			};
+			buildConfigurationList = E5C064A02E545B7600F698A2 /* Build configuration list for PBXProject "SimpleAuth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5C0649C2E545B7600F698A2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E5C06E0C2E5580F200F698A2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E5C06E0F2E55811E00F698A2 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E5C064A62E545B7600F698A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C064A42E545B7600F698A2 /* SimpleAuth */,
+				E5C064BD2E545B7700F698A2 /* SimpleAuthTests */,
+				E5C064C72E545B7700F698A2 /* SimpleAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5C064A32E545B7600F698A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064BC2E545B7700F698A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064C62E545B7700F698A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C064A12E545B7600F698A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064BA2E545B7700F698A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C064C42E545B7700F698A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C064C02E545B7700F698A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C064A42E545B7600F698A2 /* SimpleAuth */;
+			targetProxy = E5C064BF2E545B7700F698A2 /* PBXContainerItemProxy */;
+		};
+		E5C064CA2E545B7700F698A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C064A42E545B7600F698A2 /* SimpleAuth */;
+			targetProxy = E5C064C92E545B7700F698A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5C064D22E545B7700F698A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAuth/App/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5C064D32E545B7700F698A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAuth/App/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E5C064D42E545B7700F698A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5C064D52E545B7700F698A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5C064D72E545B7700F698A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleAuth";
+			};
+			name = Debug;
+		};
+		E5C064D82E545B7700F698A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleAuth";
+			};
+			name = Release;
+		};
+		E5C064DA2E545B7700F698A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleAuth;
+			};
+			name = Debug;
+		};
+		E5C064DB2E545B7700F698A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juseong.SimpleAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C064A02E545B7600F698A2 /* Build configuration list for PBXProject "SimpleAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C064D42E545B7700F698A2 /* Debug */,
+				E5C064D52E545B7700F698A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C064D12E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C064D22E545B7700F698A2 /* Debug */,
+				E5C064D32E545B7700F698A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C064D62E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C064D72E545B7700F698A2 /* Debug */,
+				E5C064D82E545B7700F698A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C064D92E545B7700F698A2 /* Build configuration list for PBXNativeTarget "SimpleAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C064DA2E545B7700F698A2 /* Debug */,
+				E5C064DB2E545B7700F698A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5C06E0C2E5580F200F698A2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		E5C06E0F2E55811E00F698A2 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5C06E0D2E5580F200F698A2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C06E0C2E5580F200F698A2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E5C06E102E55811E00F698A2 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C06E0F2E55811E00F698A2 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E5C06E122E55811E00F698A2 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C06E0F2E55811E00F698A2 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E5C0649D2E545B7600F698A2 /* Project object */;
+}
