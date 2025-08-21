@@ -59,11 +59,6 @@
 			path = SimpleAuthTests;
 			sourceTree = "<group>";
 		};
-		E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleAuthUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +94,6 @@
 			children = (
 				E5C064A72E545B7600F698A2 /* SimpleAuth */,
 				E5C064C12E545B7700F698A2 /* SimpleAuthTests */,
-				E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */,
 				E5C064A62E545B7600F698A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,9 +171,6 @@
 			);
 			dependencies = (
 				E5C064CA2E545B7700F698A2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E5C064CB2E545B7700F698A2 /* SimpleAuthUITests */,
 			);
 			name = SimpleAuthUITests;
 			packageProductDependencies = (

@@ -163,10 +163,10 @@ final class SignUpViewModel {
 
     private func mapValidationError(_ error: ValidationError) -> String {
         switch error {
-        case .invalidEmail:
-            return "유효한 이메일 형식이 아닙니다."
-        case .invalidPassword:
-            return "비밀번호 조건을 확인해주세요."
+        case .invalidEmail(let message):
+            return message
+        case .invalidPassword(let message):
+            return message
         case .passwordMismatch:
             return "비밀번호가 일치하지 않습니다."
         }
