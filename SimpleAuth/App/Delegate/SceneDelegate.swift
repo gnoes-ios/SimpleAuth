@@ -10,7 +10,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = StartViewController()
+        let diContainer = DIContainer(
+            context: CoreDataStack.shared.backgroundContext,
+            userDefaults: .standard
+        )
+        let vm = diContainer.makeStartViewModel()
+        let vc = StartViewController(viewModel: vm, diContainer: diContainer)
+        window?.rootViewController = UINavigationController(rootViewController: vc)
         window?.makeKeyAndVisible()
     }
 }
